@@ -6,7 +6,7 @@
     "extends": [
         "plugin:react/recommended",
         "airbnb"
-    ],
+    ], 
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -21,6 +21,14 @@
         "linebreak-style": [
             "error",
             "windows"
+        ],
+        "no-unused-vars": "warn",
+        "max-len": [
+            "error",
+            {
+                "code": 80,
+                "ignoreUrls": true
+            }
         ]
     }
 }

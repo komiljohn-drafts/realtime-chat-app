@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  background-color: #313131;
+  padding: 0;
+  margin: 0;
+}
+
+.formWrapper {
+  width: 400px;
+  background: #4B5D67;
+  padding: 20px 20px 10px 20px;
+  text-align: center;
+}
+
+.title {
+  font-family: Lobster;
+  color: #293A80;
+}
+
+.joinInput {
+  background-color: #303841;
+  color: #eee;
+  border-color: #333
+}
+
+.chatLink {
+  background-color: #3282B8;
+  color: #eee;
+  width: 100%;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  transition: .2s;
+}
+.chatLink:hover,
+.chatLink:focus {
+  background-color: #3690cc;
+  color: #fff;
+}
