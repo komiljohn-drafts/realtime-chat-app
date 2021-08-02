@@ -7,10 +7,12 @@ import Flex from './containers/Flex';
 function App() {
   return (
     <Flex>
-      <Router>
-        <Route path="/" exact component={Join} />
-        <Route path="/chat" component={Chat} />
-      </Router>
+      <>
+        <Router>
+          <Route path="/" exact component={Join} />
+          <Route path="/chat" component={Chat} />
+        </Router>
+      </>
     </Flex>
   );
 }

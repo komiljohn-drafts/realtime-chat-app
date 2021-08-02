@@ -26,9 +26,12 @@
         "max-len": [
             "error",
             {
-                "code": 80,
+                "code": 100,
                 "ignoreUrls": true
             }
-        ]
+        ],
+        "no-shadow": "off",
+        "no-nested-ternary": "off",
+        "no-sequences": "off"
     }
 }
